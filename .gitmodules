@@ -1,0 +1,9 @@
+[submodule "service-participant"]
+	path = service-participant
+	url = https://github.com/sherulfernando2000/NextEvent-Project-Service-Participant.git
+[submodule "service-event"]
+	path = service-event
+	url = https://github.com/sherulfernando2000/NextEvent-Project-Service-Event.git
+[submodule "service-registration"]
+	path = service-registration
+	url = https://github.com/sherulfernando2000/NextEvent-Project-Service-Registration.git
