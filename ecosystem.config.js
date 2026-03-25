@@ -31,6 +31,12 @@
 module.exports = {
   apps : [
     {
+      name: "cloud-sql-auth-proxy",
+      script: "./cloud-sql-proxy project-0ae0d75b-3979-4ebf-be9:asia-south2:mysql-vm project-0ae0d75b-3979-4ebf-be9:asia-south2:postgres-vm --private-ip",
+      log_file: "./logs/cloud-sql-proxy.log",
+    },
+
+    {
       name   : "service-event",
       script : "java -jar ./service-event/target/Event-Service-1.0.0.jar",
       log_file:  "./logs/service-event.log",
